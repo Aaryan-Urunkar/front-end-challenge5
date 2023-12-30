@@ -1,0 +1,192 @@
+.left-background{
+    max-height: 100vh;
+    display:inline-flex;
+    margin:0;
+    flex:3;
+}
+.left-background #backgroundimg{
+    height:100vh;
+}
+.left-background .cardFront{
+    min-width:40%;
+    height:33%;
+    background-image:url("images/bg-card-front.png");
+    background-repeat: no-repeat;
+
+    position: absolute;
+    left:8%;
+    top:15%;
+
+}
+#circle{
+    display:inline-block;
+    background-color:hsl(270, 3%, 87%);
+    width:7%;
+    height:15%;
+    border-radius:100%;
+    margin:2% 2% 0 2%;
+}
+#secondCircle{
+    display:inline-block;
+    width: 3%;
+    height:7.5%;
+    border-radius:100%;
+    border: 1px solid hsl(270, 3%, 87%);
+    margin: 0 0 1% 0;
+}
+#creditCardNo{
+    width:70%;
+    font-family: 'Space Grotesk', sans-serif;
+    color:hsl(270, 3%, 87%);
+    font-size:28px;
+    margin:15% 0 0 2%;
+}
+.details{
+    height:20%;
+    display:flex;
+    align-items:center;
+}
+.details span{
+    font-family: 'Space Grotesk', sans-serif;
+    color:hsl(270, 3%, 87%);
+}
+.details .name{
+    flex:1.5;
+    margin-left:10px;
+}
+.details .date{
+    flex:1;
+}
+.left-background .cardBack{
+    background-image:url("images/bg-card-back.png");
+    background-repeat: no-repeat;
+    min-width:50%;
+    height:33%;
+    
+    position:absolute;
+    top:50%;
+    left:15%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.cardBack .CVV{
+    font-family: 'Space Grotesk', sans-serif;
+    color:hsl(0, 0%, 100%);
+}
+.right-background{
+    flex:7;
+    height:100vh;
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+    margin:0;
+}
+.userDetails{
+    width:35%;
+    height:40%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.userDetails label{
+    display:block;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size:15px;
+}
+.userDetails input{
+    height:40px;
+    border-radius:10px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size:20px;
+    border:1px solid hsl(270, 3%, 87%);
+}
+#holderName{
+    width:100%;
+}
+#holderNo{
+    width:100%;
+}
+#expiryMonth, #expiryYear{
+    width:40%;
+}
+.userDetails1, .userDetails2{
+    width:100%;
+}
+.expiryDate{
+    width:50%;
+    display:inline;
+}
+.cvc{
+    width:50%;
+    display:inline;
+}
+#cvv{
+    width:100%;
+}
+::placeholder{
+    color:hsl(270, 3%, 87%);
+}
+.btn {
+    width:100%;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #21092f;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+  }
+body{
+    margin:0;
+    display:flex;
+}
+.error1{
+    display:none;
+}
+p.error{
+    color:hsl(0, 100%, 66%);
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top:0;
+    display:block;
+}
+.userDetails input.errorM{
+    border: 1px solid hsl(0, 100%, 66%);
+}
+.Page2{
+    width:35%;
+    height:40%;
+    display:none;
+}
+.right-background section.on{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+}
+.Page2 p{
+    font-family:'Space Grotesk', sans-serif;
+    margin:0;
+}
+#thankYouMsg{
+    color:hsl(278, 68%, 11%);
+    font-size:28px;
+    letter-spacing:4px;
+    display:flex;
+}
+#subtext{
+    color:hsl(279, 6%, 55%);
+    font-size:18px;
+}
+.Page2 button{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:'Space Grotesk';
+    font-size:18px;
+}
