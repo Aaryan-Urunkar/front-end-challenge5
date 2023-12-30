@@ -18,7 +18,7 @@ function updateNo(){
     if(getNo().length==0){
         document.querySelector(".cardFront #creditCardNo").textContent="0000 0000 0000 0000";
     } else {
-        document.querySelector(".cardFront #creditCardNo").textContent=getNo().slice(0,20);
+        document.querySelector(".cardFront #creditCardNo").textContent=getNo().slice(0,19);
     }
 }
 
@@ -63,11 +63,11 @@ document.querySelector(".userDetails #holderNo").addEventListener("change",getNo
 document.querySelector(".userDetails #expiryMonth").addEventListener("change",getMM);
 document.querySelector(".userDetails #expiryYear").addEventListener("change",getYY);
 document.querySelector(".userDetails #cvv").addEventListener("change",getCVC);
-setInterval(updateName,1000);
-setInterval(updateNo,1000);
-setInterval(updateMM,1000);
-setInterval(updateYY,1000);
-setInterval(updateCVC,1000);
+setInterval(updateName,10);
+setInterval(updateNo,10);
+setInterval(updateMM,10);
+setInterval(updateYY,10);
+setInterval(updateCVC,10);
 
 function confirmClick(){
     resetData();
