@@ -38,8 +38,9 @@
     width:70%;
     font-family: 'Space Grotesk', sans-serif;
     color:hsl(270, 3%, 87%);
-    font-size:28px;
+    font-size:25px;
     margin:15% 0 0 2%;
+    letter-spacing:7px;
 }
 .details{
     height:20%;
@@ -53,9 +54,11 @@
 .details .name{
     flex:1.5;
     margin-left:10px;
+    font-size:18px;
 }
 .details .date{
     flex:1;
+    font-size:18px;
 }
 .left-background .cardBack{
     background-image:url("images/bg-card-back.png");
@@ -132,9 +135,10 @@
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Space Grotesk';
     color: #ffffff;
-    font-size: 15px;
+    font-size: 18px;
+    letter-spacing:1px;
     background: #21092f;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
